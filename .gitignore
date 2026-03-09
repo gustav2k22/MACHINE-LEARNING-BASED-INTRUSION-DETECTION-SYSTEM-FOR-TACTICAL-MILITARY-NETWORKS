@@ -1,0 +1,33 @@
+# Large data files - do not push to GitHub
+datasets/
+models/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+sentinel-dashboard/node_modules/
+sentinel-dashboard/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
